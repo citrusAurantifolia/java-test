@@ -20,6 +20,11 @@ public class Main1 {
     System.out.println(p1);
   }
 
+    private static String empty123(){
+
+    return null;
+  }
+
   private static String getPassword(){
     String password = "askjdhk";
     return password;
