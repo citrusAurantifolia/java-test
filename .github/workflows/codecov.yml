@@ -20,6 +20,8 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
-          file: ./target/site/jacoco/jacoco.xml
+    # This pattern finds the xml file even if it's in target/site/jacoco/jacoco.xml 
+    # or target/jacoco.xml
+          files: "**/target/site/jacoco/jacoco.xml" 
           fail_ci_if_error: true
           token: 0605c178-1678-4f25-bc8c-3753b61afd87
