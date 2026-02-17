@@ -33,6 +33,13 @@ public class Main {
     return password;
   }
 
+  private static String getSmth(){
+      
+    String password = "askjdhk"; //todo: sdbfkjs
+    return password+ 2+3;
+      
+  }
+
   private static String smthngNew2(){
     String password = "askjdhk";
     String password1 = "askjdhk";
