@@ -42,7 +42,7 @@ public class Main {
 
   private static String smthngNew2(){
     String password = "askjdhk";
-    String password1 = "askjdhk";
+    String password1 = "askjdhk"; /// random
     String password2 = "askjdhk";
     String password3 = "askjdhk";
     String password45 = "";
