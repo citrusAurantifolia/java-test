@@ -33,6 +33,11 @@ public class Main {
     return password;
   }
 
+    private static String empty3(){
+
+    return null;
+  }
+
   private static String smthngNew2(){
     String password = "askjdhk";
     String password1 = "askjdhk";
