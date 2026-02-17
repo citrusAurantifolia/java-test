@@ -41,6 +41,11 @@ public class Main {
       
   }
 
+  // private static String getPassword(){
+  //   String password = "askjdhk";
+  //   return password;
+  // }
+
   private static String smthngNew2(){
     String password = "askjdhk";
     String password1 = "askjdhk"; /// random
