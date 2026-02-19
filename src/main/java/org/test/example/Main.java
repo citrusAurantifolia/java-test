@@ -50,7 +50,7 @@ public class Main {
     String password = "askjdhk";
     String password1 = "askjdhk"; /// random
     String password2 = "askjdhk";
-    String password3 = "askjdhk";
+    String asd123 = "askjdhk";
     String password45 = "";
     return password;
   }
@@ -59,9 +59,7 @@ public class Main {
 
     return null;
   }
-//  private static String empty2(){
-//    String password = "askjdhk";
-//    return password;
+
 //  }  
 //  }  private static String empty4(){
 //    String password = "askjdhk";
@@ -72,4 +70,8 @@ public class Main {
 
     return null;
   }
+
+  //  private static String empty2(){
+//    String password = "askjdhk";
+//    return password;
 }
