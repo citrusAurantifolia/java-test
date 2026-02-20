@@ -12,6 +12,6 @@ jobs:
         uses: snyk/actions/maven@master
         continue-on-error: true # Essential for research so the build doesn't stop
         env:
-          SNYK_TOKEN: snyk_uat.1fcad39e.eyJlIjoxNzcxOTQyOTAwLCJoIjoic255ay5pbyIsImoiOiJBWnhyLW80OV9rOUJTR1Z3SUVMb0xnIiwicyI6ImtVSFY5dDF0Uml1VUUwMklBNWE0S1EiLCJ0aWQiOiJBQUFBQUFBQUFBQUFBQUFBQUFBQUFBIn0.zrTz9HWmfUVLUmoJJmpr5xMcCd6ndRO8pOZaISC47e9ks0QUuRCq7IjgU8qPHe57lZDPNmEB3Riz-txPITZsDQ
+          SNYK_TOKEN: snyk_uat.1fcad39e.eyJlIjoxNzcxNjc0NDgwLCJoIjoic255ay5pbyIsImoiOiJBWng2NGNyR1lzcndjUkZqT3BVWVJRIiwicyI6ImtVSFY5dDF0Uml1VUUwMklBNWE0S1EiLCJ0aWQiOiJBQUFBQUFBQUFBQUFBQUFBQUFBQUFBIn0.Q4RPy100rVe2r1sTqpfTvuE3luf6Iqy16QQ-X_5kib5hkfoPoggXeKdyZFV7vOta8Iv-avS9Aj2ifiNG73H2Bw
         with:
           args: --severity-threshold=high
