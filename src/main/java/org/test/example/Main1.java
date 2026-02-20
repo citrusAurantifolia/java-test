@@ -6,9 +6,10 @@ public class Main1 {
     String s;
     System.out.println("Hello world!");
     int i = 0;
+    int k = 0;
+    int ii = i; //todo:
     boolean f;
-    boolean k; // TODO:
-    boolean k123; // TODO:
+
 
     if (i==0){
       f = true;
@@ -39,7 +40,7 @@ public class Main1 {
   }
 
   private static String empty(){
-
+    String s ="aasd";
     return null;
   }
 //  private static String empty2(){
