@@ -1,0 +1,17 @@
+name: Snyk Security Scan
+on: [push, pull_request]
+
+jobs:
+  snyk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/maven@master
+        continue-on-error: true # Essential for research so the build doesn't stop
+        env:
+          SNYK_TOKEN: snyk_uat.1fcad39e.eyJlIjoxNzcxNjc0NDgwLCJoIjoic255ay5pbyIsImoiOiJBWng2NGNyR1lzcndjUkZqT3BVWVJRIiwicyI6ImtVSFY5dDF0Uml1VUUwMklBNWE0S1EiLCJ0aWQiOiJBQUFBQUFBQUFBQUFBQUFBQUFBQUFBIn0.Q4RPy100rVe2r1sTqpfTvuE3luf6Iqy16QQ-X_5kib5hkfoPoggXeKdyZFV7vOta8Iv-avS9Aj2ifiNG73H2Bw
+        with:
+          args: --severity-threshold=high
