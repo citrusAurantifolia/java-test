@@ -49,9 +49,13 @@ public class Main {
     String password1 = "askjdhk"; /// random
     String password2 = "askjdhk";
     String asd123 = "askjdhk";
+    int k = 2+3;
     String password45 = "";
     return password;
   }
+
+  
+  //todo:
 
   private static String empty(){
 
@@ -68,8 +72,4 @@ public class Main {
 
     return null;
   }
-
-  //  private static String empty2(){
-//    String password = "askjdhk";
-//    return password;
 }
