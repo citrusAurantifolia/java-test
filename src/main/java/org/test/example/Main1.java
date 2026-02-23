@@ -9,6 +9,7 @@ public class Main1 {
     boolean f;
     boolean k; // TODO:
     boolean k123; // TODO:
+        boolean k124; // TODO:
 
     if (i==0){
       f = true;
@@ -17,6 +18,11 @@ public class Main1 {
     String p;
     String p1 = getPassword();
     System.out.println(p1);
+  }
+
+    private static String empty123(){
+
+    return null;
   }
 
   private static String getPassword(){
